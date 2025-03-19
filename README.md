@@ -13,17 +13,14 @@ An AI-powered cybersecurity assistant that scans IP addresses for potential thre
 ## 📂 Project Structure  
 ```
 Cybersec-Assistant/
-│── backend/              # FastAPI backend
+│── backend/
 │   ├── main.py           # API entry point
-│   ├── security.py       # Security utilities
-│   ├── api_clients.py    # API integrations
-│   ├── requirements.txt  # Backend dependencies
+│   ├── utility.py
+│   ├── requirements.txt
 │── frontend/             # Svelte frontend
 │   ├── src/
 │   ├── package.json
 │   ├── tailwind.config.js
-│── README.md             # Project documentation
-│── .gitignore            # Ignore unnecessary files
 ```
 
 ---
@@ -44,7 +41,7 @@ uvicorn main:app --reload  # Run FastAPI
 ```sh
 cd frontend
 npm install
-npm run dev  # Start frontend
+npm run dev
 ```
 
 ---
@@ -60,18 +57,16 @@ npm run dev  # Start frontend
 | Method | Endpoint               | Description                     |
 |--------|------------------------|---------------------------------|
 | `GET`  | `/scan/ip/{ip}`        | Scan IP for threats            |
-| `GET`  | `/health`              | Check server status            |
 
 ---
 
 ## 🔒 Security  
 👉 **CORS Protection** in FastAPI  
-👉 **Rate Limiting** using SlowAPI  
 👉 **API Key Handling** for external services  
 
 ---
 
-## 💜 License  
+## License  
 MIT License  
 
 ---
@@ -91,6 +86,6 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/yourusername/cybersec-agent.git
+git remote add origin https://github.com/MohibShaikh/cybersec-agent.git
 git push -u origin main
 ```
