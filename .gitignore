@@ -1,0 +1,43 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+*.sqlite3
+
+# Node.js
+node_modules/
+dist/
+build/
+.npm
+.yarn.lock
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Svelte
+.svelte-kit/
+.vite/
+*.svelte-cache
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# FastAPI
+*.db
+instance/
