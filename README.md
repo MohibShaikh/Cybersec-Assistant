@@ -30,11 +30,15 @@ Cybersec-Assistant/
 ### 1️⃣ **Backend (FastAPI)**
 ```sh
 cd backend
+```
+```sh
 python -m venv venv  # Create virtual environment
 source venv/bin/activate  # (Linux/macOS)
 venv\Scripts\activate  # (Windows)
+```
+```sh
 pip install -r requirements.txt
-uvicorn main:app --reload  # Run FastAPI
+uvicorn main:app --reload
 ```
 
 ### 2️⃣ **Frontend (Svelte + TailwindCSS)**
