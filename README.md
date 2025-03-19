@@ -90,6 +90,6 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/MohibShaikh/cybersec-agent.git
+git remote add origin https://github.com/MohibShaikh/Cybersec-Assistant.git
 git push -u origin main
 ```
